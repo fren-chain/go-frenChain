@@ -104,7 +104,7 @@ var (
 
 	// MainnetChainConfig is the chain parameters to run a node on the main network.	
 	MainnetChainConfig = &ChainConfig{
-		ChainID:             big.NewInt(420),
+		ChainID:             big.NewInt(4444),
 		HomesteadBlock:      big.NewInt(0),
 		DAOForkBlock:        nil,
 		DAOForkSupport:      false,
@@ -133,7 +133,7 @@ var (
 	
 	// TestnetChainConfig is the chain parameters to run a node on the main network.
 	TestnetChainConfig = &ChainConfig{
-		ChainID:             big.NewInt(69420),
+		ChainID:             big.NewInt(444),
 		HomesteadBlock:      big.NewInt(0),
 		DAOForkBlock:        nil,
 		DAOForkSupport:      false,
