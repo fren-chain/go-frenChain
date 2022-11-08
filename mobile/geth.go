@@ -189,12 +189,12 @@ func NewNode(datadir string, config *NodeConfig) (stack *Node, _ error) {
 		// If we have the FrenTest testnet, hard code the chain configs too
 		if config.EthereumGenesis == TestnetGenesis() {
 			genesis.Config = params.TestnetChainConfig
-			config.EthereumNetworkID = 69420
+			config.EthereumNetworkID = 444
 		}
 		// If we have the FrenChain testnet, hard code the chain configs too
 		if config.EthereumGenesis == MainnetGenesis() {
 			genesis.Config = params.MainnetChainConfig
-			config.EthereumNetworkID = 69420
+			config.EthereumNetworkID = 4444
 		}
 	}
 	// Register the Ethereum protocol if requested
