@@ -120,7 +120,7 @@ var (
 		BerlinBlock:         big.NewInt(0),
 		LondonBlock:         big.NewInt(0),
 		Clique: &CliqueConfig{
-			Period: 10,
+			Period: 3,
 			Epoch:  30000,
 		},
 	}
