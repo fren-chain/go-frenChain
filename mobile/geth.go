@@ -80,7 +80,7 @@ var defaultNodeConfig = &NodeConfig{
 	BootstrapNodes:        FoundationBootnodes(),
 	MaxPeers:              25,
 	EthereumEnabled:       true,
-	EthereumNetworkID:     4444,
+	EthereumNetworkID:     44444,
 	EthereumDatabaseCache: 16,
 }
 
@@ -194,7 +194,7 @@ func NewNode(datadir string, config *NodeConfig) (stack *Node, _ error) {
 		// If we have the FrenChain testnet, hard code the chain configs too
 		if config.EthereumGenesis == MainnetGenesis() {
 			genesis.Config = params.MainnetChainConfig
-			config.EthereumNetworkID = 4444
+			config.EthereumNetworkID = 44444
 		}
 	}
 	// Register the Ethereum protocol if requested
