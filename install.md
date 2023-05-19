@@ -39,4 +39,4 @@ Run geth to sync the chain (Hard coded bootnodes for auto sync.)
 ./geth --datadir walletDirName --frentest
 ```
 
-Continue to startups.md
+Continue to [startups.md](https://github.com/fren-chain/go-frenchain/blob/main/startups.md) 
